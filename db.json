@@ -1,9 +1,28 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "transactions": [
+    {
+      "description": "Salário",
+      "category": "Emprego",
+      "price": 3800,
+      "type": "income",
+      "createdAt": "2023-04-19T18:43:01.729Z",
+      "id": 3
+    },
+    {
+      "description": "Bike",
+      "category": "Transporte",
+      "price": 900,
+      "type": "outcome",
+      "createdAt": "2023-04-19T18:43:58.092Z",
+      "id": 4
+    },
+    {
+      "description": "Salário Março",
+      "category": "Emprego",
+      "price": 3900,
+      "type": "income",
+      "createdAt": "2023-04-19T21:55:36.125Z",
+      "id": 5
+    }
+  ]
 }
